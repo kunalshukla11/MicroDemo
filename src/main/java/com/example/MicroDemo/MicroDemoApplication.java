@@ -39,7 +39,11 @@ public class MicroDemoApplication {
 		list.add(team);
 
 		teamRepository.saveAll(list);
+		//Doing some changes i
 
+	}
+	public void doNothing(){
+		System.out.println("do notthing");
 	}
 
 }
